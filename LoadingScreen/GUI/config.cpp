@@ -1,13 +1,13 @@
 class CfgPatches
 {
-	class DayZExpansion_LoadingScreen_GUI
-	{
-		units[]={};
-		weapons[]={};
-		requiredVersion=0.1;
-		requiredAddons[]=
-		{
-			"DZ_Data"
-		};
-	};
+class DayZ_LoadingScreen_GUI
+{
+units[]={};
+weapons[]={};
+requiredVersion=0.1;
+requiredAddons[]=
+{
+"DZ_Data"
+};
+};
 };
