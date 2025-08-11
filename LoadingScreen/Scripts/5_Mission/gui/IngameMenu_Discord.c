@@ -14,9 +14,9 @@ static string GetDiscordUrl()
     {
         g_DiscordUrlLoaded = true;
         DiscordConfig cfg;
-        if (FileExist("Config/DiscordSettings.json"))
+        if (FileExist("LoadingScreen/Config/DiscordSettings.json"))
         {
-            JsonFileLoader<DiscordConfig>.JsonLoadFile("Config/DiscordSettings.json", cfg);
+            JsonFileLoader<DiscordConfig>.JsonLoadFile("LoadingScreen/Config/DiscordSettings.json", cfg);
             if (cfg && cfg.DiscordUrl != string.Empty)
             {
                 g_DiscordUrl = cfg.DiscordUrl;
@@ -28,7 +28,7 @@ static string GetDiscordUrl()
         }
         else
         {
-            Print("[DiscordButton] Config/DiscordSettings.json not found");
+            Print("[DiscordButton] LoadingScreen/Config/DiscordSettings.json not found");
         }
     }
     return g_DiscordUrl;

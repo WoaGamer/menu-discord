@@ -25,16 +25,24 @@ class CfgMods
 			"World",
 			"Mission"
 		};
-		class defs
-		{
-			class gameScriptModule
-			{
-				value = "";
-				files[] =
-				{
-					"LoadingScreen/Scripts/3_Game"
-				};
-			};
-		};
-	};
+                class defs
+                {
+                        class gameScriptModule
+                        {
+                                value = "";
+                                files[] =
+                                {
+                                        "LoadingScreen/Scripts/3_Game"
+                                };
+                        };
+                        class missionScriptModule
+                        {
+                                value = "";
+                                files[] =
+                                {
+                                        "LoadingScreen/Scripts/5_Mission"
+                                };
+                        };
+                };
+        };
 };
