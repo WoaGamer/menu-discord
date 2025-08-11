@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C66E87C3A2AB03B8}GUI/loading4com logo.edds"
+ Author "woagamer"
+ ChangeDate -555617537
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loading4com logo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

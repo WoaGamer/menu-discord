@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2BCF051E0532C96B}GUI/logo.edds"
+ Author "woagamer"
+ ChangeDate 1957294847
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

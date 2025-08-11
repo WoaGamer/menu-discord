@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C267142A4181624C}GUI/loading1.edds"
+ Author "woagamer"
+ ChangeDate 78770943
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loading1.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

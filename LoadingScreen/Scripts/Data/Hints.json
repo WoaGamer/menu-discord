@@ -1,0 +1,32 @@
+[
+	{
+		"m_Headline": "Raid Token",
+		"m_ImagePath": "",
+		"m_Description": "O raid so ocorre se voce morrer e sua DogTag dropar, verifique discord para % de chances!"
+	},
+	{
+		"m_Headline": "Loja",
+		"m_ImagePath": "",
+		"m_Description": "Os itens da loja podem ser adquiridos pressionando a tecla I do seu teclado!"
+	},	
+	{
+		"m_Headline": "BV+ Coins",
+		"m_ImagePath": "",
+		"m_Description": "Adquira coins via Ticket no discord!"
+	},
+	{
+		"m_Headline": "Leia as Regras",
+		"m_ImagePath": "",
+		"m_Description": "Evite punições, Leia as regras do servidor!"
+	},
+	{
+		"m_Headline": "Veículos",
+		"m_ImagePath": "",
+		"m_Description": "Não há NENHUM suporte para veículos, nao importa o motivo, use por sua conta em risco! "
+	},	
+	{
+		"m_Headline": "Território",
+		"m_ImagePath": "",
+		"m_Description": "Você NÃO consegue mudar sua bandeira apos posicionada! Escolha com sabedoria!"
+	}
+]
