@@ -55,7 +55,7 @@ static ButtonWidget FindAnyButton(Widget root)
     return null;
 }
 
-modded class IngameMenu extends UIScriptedMenu
+modded class InGameMenu extends UIScriptedMenu
 {
     protected ButtonWidget m_DiscordBtn;
 
